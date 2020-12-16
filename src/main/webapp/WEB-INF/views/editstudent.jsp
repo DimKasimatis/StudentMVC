@@ -24,7 +24,8 @@
             <form:input type="hidden" path="id" id="id"/>
             First Name: <form:input path="firstName"  /><br />
             Last Name: <form:input path="lastName" /><br />
-            Date Of Birth : <form:input path="dateOfBirth"  type="date" /><br />
+            
+            Date Of Birth : <form:input path="dateOfBirth" type="date"/><br />
             Tuition Fees : <form:input path="tuitionFees" /><br />
             <input type="submit" value="Update">
         </form:form>
